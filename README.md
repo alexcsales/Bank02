@@ -8,7 +8,6 @@
 - [ ] Login page<br>
 - [ ] Register<br>
 - [ ] create html and JavaScript validations<br>
-- [ ] create login by social network (google)
 
 <h1 align="center">
   <img height="20%" width="60%" alt="GIF-Project"  src=""/>

@@ -8,16 +8,30 @@
 </head>
 
 <body>
-  <div class="caixa">
-    <h2>Login</h2>
-    <form class="formulario">
-      <input name="nome" id="nome" class="input" type="text" placeholder="Nome" required>
-      <input name="senha" id="senha" class="input" type="password"
-        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[ !@#$%^&*_=+-]).{8,32}$" placeholder="Senha" required>
-      <p>ainda não tem uma conta? click<a href="#"> aqui</a></p>
-    </form>
-    <button>Entrar</button>
-  </div>
+  <header class="cabecalho">
+    <div class="cabecalho__conteudo container">
+      <h1 class="cabecalho__titulo">Bank02</h1>
+      <label for="abreCadastro" class="cabecalho__cadastro" href="#"><i
+          class="fa-solid fa-user"></i>Cadastrar-se</label>
+      <input id="abreCadastro" type="checkbox" checked="true"></input>
+      <div id="cadastro"></div>
+    </div>
+  </header>
+  <main>
+    <div class="caixa">
+      <h2>Login</h2>
+      <form class="formulario">
+        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" required>
+        <input name="senha" id="senha" class="input" type="password"
+          pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[ !@#$%^&*_=+-]).{8,32}$" placeholder="Senha" required>
+        <p>ainda não tem uma conta? click<a href="#"> aqui</a></p>
+      </form>
+      <button>Entrar</button>
+    </div>
+  </main>
+  
+  <footer>
+  </footer>
 
 </body>
 

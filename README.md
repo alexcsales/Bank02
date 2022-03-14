@@ -5,7 +5,7 @@
 <h4 align='center'>🚧README project 🚀 under construction...🚧</h4>
   
 ### ⚙ Features
-- [ ] Login page<br>
+- [x] Login page<br>
 - [ ] Register page<br>
 - [ ] create html and JavaScript validations<br>
 

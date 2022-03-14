@@ -8,6 +8,7 @@
 - [x] Login page<br>
 - [x] Register page<br>
 - [ ] create html and JavaScript validations<br>
+- [ ] Responsive
 
 <h1 align="center">
   <img height="20%" width="60%" alt="GIF-Project"  src=""/>

@@ -19,16 +19,20 @@
         Cadastrar-se</a>
     </div>
   </header>
-  <main>
-    <div class="campo__formulario">
-      <h2>Login</h2>
-      <form class="formulario">
-        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" required>
-        <input name="senha" id="senha" class="input" type="password"
-          pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[ !@#$%^&*_=+-]).{8,32}$" placeholder="Senha" required>
-        <p>ainda não tem uma conta? click<a href="#"> aqui</a></p>
+  <main class="principal login">
+    <div class="principal__formulario">
+      <div>
+        <form action="./cadastro.html" class="formulario">
+          <fieldset class="formulario__informacoes">
+            <h2 class="formulario__titulo">ACESSAR SUA CONTA</h2>
+            <label class="input-label" for="nome">Nome</label>
+            <input name="nome" id="nome" class="formulario__input" type="text" placeholder="Nome" required>
+            <label class="input-label" for="senha">Senha</label>
+            <input name="senha" id="senha" class="formulario__input" type="password" placeholder="Senha" required>
+          </fieldset>
+      </div>
+      <button class="formulario__botao" type="submit">Entrar</button>
       </form>
-      <button>Entrar</button>
     </div>
   </main>
   

@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  height: 100vh;
+ 
+}
+
+.container{
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.cabecalho {
+  width: 100%;
+  background-color: red;
+  color: #f8f8f8;
+  padding: 2rem 0;
+}
+
+.cabecalho__conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.2rem;
+}
+
+.cabecalho__titulo {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.cabecalho__link {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+.cabecalho__link:hover {
+  opacity: 70%;
+  text-decoration: underline;
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: #f8f8f8;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1.5rem;
+}
+
+.rodape__texto a {
+  color: #f8f8f8;
+  font-weight: bolder;
+}

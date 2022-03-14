@@ -6,7 +6,7 @@
   
 ### ⚙ Features
 - [x] Login page<br>
-- [ ] Register page<br>
+- [x] Register page<br>
 - [ ] create html and JavaScript validations<br>
 
 <h1 align="center">
